@@ -1,0 +1,24 @@
+[
+    {
+      "id": "maze-runner",
+      "title": "Maze Runner",
+      "description": "Navigate through the challenging maze to win!",
+      "image": "/game/maze_runner.png",
+      "url": "maze-runner.html"
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic Tac Toe",
+      "description": "Classic game of Xs and Os. Try to win!",
+      "image": "/game/tictactoe.png",
+      "url": "tic-tac-toe.html"
+    },
+    {
+      "id": "sudoku",
+      "title": "Sudoku",
+      "description": "Solve the puzzle to test your logic skills.",
+      "image": "/game/sudoku.png",
+      "url": "sudoku.html"
+    }
+  ]
+  
