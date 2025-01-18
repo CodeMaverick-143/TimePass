@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white font-sans min-h-screen">
+    <!-- Navbar -->
+    <header class="navbar shadow-lg sticky top-0 bg-opacity-90 backdrop-blur-md z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="#" class="brand text-2xl font-bold bg-gradient-to-r from-yellow-400 to-red-500 bg-clip-text text-transparent">
+                Game Showcase
+            </a>
+            <div class="flex items-center space-x-6">
+                <p id="datetime" class="text-yellow-400 font-semibold"></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-content flex flex-col justify-center items-center py-16">
+        <h2 class="text-4xl font-extrabold bg-gradient-to-r from-yellow-400 to-red-500 bg-clip-text text-transparent text-center mb-8">
+            Featured Games
+        </h2>
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 container mx-auto">
+            <!-- Add dynamic content here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-opacity-90 backdrop-blur-md py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">&copy; 2025 <span class="font-semibold text-yellow-400">CodeMaverick-143</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+        
+</body>
+</html>
