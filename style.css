@@ -1,0 +1,150 @@
+/* Colors and Styles */
+:root {
+    --gradient-start: #1a1a2e;
+    --gradient-middle: #16213e;
+    --gradient-end: #0f3460;
+    --text-gradient-start: #f39c12;
+    --text-gradient-end: #e74c3c;
+    --button-gradient-start: #e67e22;
+    --button-gradient-end: #d35400;
+    --gray-light: #d1d5db;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-middle), var(--gradient-end));
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--gray-light);
+}
+
+/* Section */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Game Card */
+.game-card {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.game-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.game-description {
+    color: var(--gray-light);
+    margin-bottom: 1rem;
+}
+
+/* Button */
+.btn-gradient {
+    background: linear-gradient(135deg, var(--button-gradient-start), var(--button-gradient-end));
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, var(--button-gradient-end), var(--button-gradient-start));
+    transform: translateY(-3px);
+}
+
+/* Footer */
+.footer {
+    padding: 1.5rem 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: var(--gray-light);
+}
+/* Ensure the body and container fill the viewport */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main content grows to fill available space */
+.main-content {
+    flex: 1; /* Allow this section to grow and push the footer down */
+}
+
+/* Footer styling to stay at the bottom */
+.footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem 0;
+    font-size: 0.875rem;
+    color: var(--gray-light);
+    text-align: center;
+}
+
