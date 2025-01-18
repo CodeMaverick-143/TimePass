@@ -4,21 +4,21 @@
       "title": "Maze Runner",
       "description": "Navigate through the challenging maze to win!",
       "image": "/game/maze_runner.png",
-      "url": "maze-runner.html"
+      "url": "https://maze-runner-eight.vercel.app"
     },
     {
       "id": "tic-tac-toe",
       "title": "Tic Tac Toe",
       "description": "Classic game of Xs and Os. Try to win!",
       "image": "/game/tictactoe.png",
-      "url": "tic-tac-toe.html"
+      "url": "https://tic-tac-toe-alpha-brown-58.vercel.app"
     },
     {
       "id": "sudoku",
       "title": "Sudoku",
       "description": "Solve the puzzle to test your logic skills.",
       "image": "/game/sudoku.png",
-      "url": "sudoku.html"
+      "url": "https://codemaverick-143.github.io/Sukodu/"
     }
   ]
   
