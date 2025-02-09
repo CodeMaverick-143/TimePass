@@ -22,7 +22,7 @@ Check out the live version of the project here: [Game Showcase Live](https://gam
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Gaming_Showcase.git
+   https://github.com/CodeMaverick-143/TimePass.git
    cd Gaming_Showcase
    ```
 
