@@ -26,5 +26,12 @@
         "description": "Play with numbers.",
         "image": "/game/2048.jpg",
         "url": "https://2048-game-rust.vercel.app/"
+    },
+    {
+        "id": "cybershot",
+        "title": "Cyber Shot",
+        "description": "A fast-paced shooting game where you battle waves of enemies.",
+        "image": "/game/gameshot.jpg",
+        "url": "https://cyber-shot.vercel.app/"
     }
 ]
