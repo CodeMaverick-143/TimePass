@@ -20,5 +20,12 @@
       "image": "/game/sudoku.png",
       "url": "https://sudoku-murex-seven.vercel.app/"
     }
+    {
+      "id": "2048",
+      "title": "2048",
+      "description": "Play with numbers.",
+      "image": "/game/2048.jpg",
+      "url": "https://2048-game-rust.vercel.app/"
+    }
   ]
   
