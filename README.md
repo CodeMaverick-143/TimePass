@@ -111,4 +111,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - [TailwindCSS](https://tailwindcss.com) for providing a modern and flexible styling framework.
 - All developers who contributed to the games featured in this showcase.
 
---------
+---
